@@ -1,0 +1,6 @@
+item=input("Enter the item to add to the list: ")
+price=input("Enter the price of the item: ")
+quantity=input("Enter the quantity of the item: ")
+total = float(price) * float(quantity)
+print(f"Item: {item}, Price: {price}, Quantity: {quantity}, Total: {total}")
+print(f"Total cost of {quantity} {item}(s) at {price} each is: {total}")
